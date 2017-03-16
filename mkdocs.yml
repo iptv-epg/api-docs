@@ -1,0 +1,8 @@
+site_name: IPTV-EPG API  documentation
+pages:
+  - Usage: index.md
+  - Authentication: authentication.md
+  - Countries and channels: channels.md
+  - User data: user.md
+  - Changelog: changelog.md
+theme: readthedocs
