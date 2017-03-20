@@ -3,6 +3,10 @@
 The IPTV-EPG API utilizes OAuth2 for user authentication. Currently, only private access tokens are supported.
 These are commonly reffered to as 'Api keys'. A user can create and delete as many tokens as necessary.
 
+## Account types
+For API usage, the user needs to have a business subscription. API is currently not available
+for personal accounts.
+
 ## Creating an API Key
 To create an access token, go to https://www.iptv-epg.com/account/api. You can create as many tokens as necessary.
 The API keys are shown only once, upon creation. If you lose it, you need to delete it and create another one. 
