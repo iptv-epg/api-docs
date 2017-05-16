@@ -1,5 +1,5 @@
 # IPTV EPG API Usage
-Current version: *1.0.1*
+Current version: *1.1.0*
 
 ## API Endpoint
 IPTV-EPG.com provides a convenient REST API for external services to access the services provided by IPTV-EPG.com.
