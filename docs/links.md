@@ -20,7 +20,7 @@ Business users who have a user based subscription have a number of custom links 
 ]
 ```
 
-## Reset a links
+## Reset a link
 
 You can reset a link using its ID by sending the following `POST` request. It will return the newly reset link.
 
