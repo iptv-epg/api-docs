@@ -23,7 +23,8 @@ Business users who have a user based subscription have a number of custom links 
 		"m3u_password": "example",
 		"url": "http:\/\/iptv-epg.com\/r66-example.xml",
 		"m3u_url": "http:\/\/iptv-epg.com\/r66-example.m3u",
-		"enigma2_url": "http:\/\/iptv-epg.com\/enigma2\/r66-example.zip"
+		"enigma2_url": "http:\/\/iptv-epg.com\/enigma2\/r66-example.zip",
+		"tv_app_code": "20 00 00 00 00 00"
 	},
     (...)
 ]
