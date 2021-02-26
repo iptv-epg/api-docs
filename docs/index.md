@@ -11,3 +11,9 @@ The IPTV-EPG API uses JSON as the markup language for communication.
 
 ## Authentication
 The API utilizes OAuth2 for client authentication. For details, please refer to the authentication docs.
+
+## Pagination
+
+GET API endpoints have pagination by default. Usage in url parameters:
+
+`{{API_URL}}?page={integer}&per_page={integer}`

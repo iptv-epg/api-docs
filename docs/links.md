@@ -12,9 +12,11 @@ Business users who have a user based subscription have a number of custom links 
 		"id": 101,
 		"m3u_user": "example",
 		"m3u_password": "example",
+        "expiration_date": "2021-01-01 00:00:00",
 		"url": "http:\/\/epg.best\/r65-example.xml",
 		"m3u_url": "http:\/\/epg.best\/r65-example.m3u",
-		"enigma2_url": "http:\/\/epg.best\/enigma2\/r65-example.zip"
+		"enigma2_url": "http:\/\/epg.best\/enigma2\/r65-example.zip",
+        "tv_app_code": "20 00 00 00 00 00"
 	},
 	{
 		"id": 102,
