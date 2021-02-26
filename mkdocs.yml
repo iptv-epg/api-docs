@@ -3,6 +3,7 @@ pages:
   - Usage: index.md
   - Authentication: authentication.md
   - Countries and channels: channels.md
+  - Programmes: programmes.md
   - User data: user.md
   - User links: links.md 
   - Changelog: changelog.md
