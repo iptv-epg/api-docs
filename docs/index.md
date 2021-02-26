@@ -2,9 +2,9 @@
 Current version: *1.1.0*
 
 ## API Endpoint
-IPTV-EPG.com provides a convenient REST API for external services to access the services provided by IPTV-EPG.com.
+epg.best provides a convenient REST API for external services to access the services provided by epg.best.
 
-The API is available at `https://www.iptv-epg.com/api`
+The API is available at `https://epg.best/api`
 
 ## JSON
 The IPTV-EPG API uses JSON as the markup language for communication. 

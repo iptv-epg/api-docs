@@ -8,7 +8,7 @@ For API usage, the user needs to have a business subscription. API is currently 
 for personal accounts.
 
 ## Creating an API Key
-To create an access token, go to https://www.iptv-epg.com/account/api. You can create as many tokens as necessary.
+To create an access token, go to https://epg.best/account/api. You can create as many tokens as necessary.
 The API keys are shown only once, upon creation. If you lose it, you need to delete it and create another one. 
 All keys are valid for one year.
 

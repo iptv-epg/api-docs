@@ -4,7 +4,7 @@ Business users who have a user based subscription have a number of custom links 
 
 ## List all user links
 
-`GET https://www.iptv-epg.com/api/links`
+`GET https://epg.best/api/links`
 
 ```json
 [
@@ -12,21 +12,19 @@ Business users who have a user based subscription have a number of custom links 
 		"id": 101,
 		"m3u_user": "example",
 		"m3u_password": "example",
-		"url": "http:\/\/iptv-epg.com\/r65-example.xml",
-		"m3u_url": "http:\/\/iptv-epg.com\/r65-example.m3u",
-		"enigma2_url": "http:\/\/iptv-epg.com\/enigma2\/r65-example.zip"
+		"url": "http:\/\/epg.best\/r65-example.xml",
+		"m3u_url": "http:\/\/epg.best\/r65-example.m3u",
+		"enigma2_url": "http:\/\/epg.best\/enigma2\/r65-example.zip"
 	},
 	{
 		"id": 102,
-		"url": "http:\/\/iptv-epg.com\/r66-example.xml",
 		"m3u_user": "example",
 		"m3u_password": "example",
-		"url": "http:\/\/iptv-epg.com\/r66-example.xml",
-		"m3u_url": "http:\/\/iptv-epg.com\/r66-example.m3u",
-		"enigma2_url": "http:\/\/iptv-epg.com\/enigma2\/r66-example.zip",
+		"url": "http:\/\/epg.best\/r66-example.xml",
+		"m3u_url": "http:\/\/epg.best\/r66-example.m3u",
+		"enigma2_url": "http:\/\/epg.best\/enigma2\/r66-example.zip",
 		"tv_app_code": "20 00 00 00 00 00"
-	},
-    (...)
+	}
 ]
 ```
 
@@ -34,11 +32,11 @@ Business users who have a user based subscription have a number of custom links 
 
 You can reset a link using its ID by sending the following `POST` request. It will return the newly reset link.
 
-`POST https://www.iptv-epg.com/api/links/reset/{id}`
+`POST https://epg.best/api/links/reset/{id}`
 
 ```json
 {
     "id": 101,
-    "url": "http:\/\/iptv-epg.com\/r65-example.xml"
+    "url": "http:\/\/epg.best\/r65-example.xml"
 }
 ```

@@ -8,10 +8,10 @@ docs for details.
 Currently, only the EPG URL of the user is readable. The EPG is either a raw XML file  or is compressed using GZIP 
 depending on the settings of the user.
 
-`GET https://www.iptv-epg.com/api/user`
+`GET https://epg.best/api/user`
 
 ```json
 {
-    	"epg": "http:\/\/iptv-epg.com\/fa-abcdef.xml.gz"
+    	"epg": "http:\/\/epg.best\/fa-abcdef.xml.gz"
 }
 ```
