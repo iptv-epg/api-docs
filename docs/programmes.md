@@ -8,7 +8,7 @@ The `/programmes` endpoint provides access to the list of all programmes availab
 
 
 Filters: 
-  * `date`: witch days 
+  * `date`: which days 
   * `channel[]`: Channel Tvg ID-s
   * `per_page`: Per page number 
   * `page`:  Page
