@@ -57,6 +57,16 @@ The `/channels` endpoint provides access to the list of all countries and channe
 
 `GET https://epg.best/v2/channels`
 
+
+Filters:
+* `country_code`: Country code 
+* `channel[]`: Channel Tvg ID-s
+* `search`: Search in channel display name
+* `per_page`: Per page number
+* `page`:  Page
+
+Example: `https://epg.best/api/v2/channels?country_code=hu&channel[]=RTLGold.hu&search=RTL&page=2&per_page=50`
+
 ```json
 {
   "current_page": 1,
