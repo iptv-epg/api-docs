@@ -2,6 +2,11 @@
 
 Changes made to the IPTV-EPG API are listed here.
 
+## 1.4.0 2022-08-31
+- Add program index API documentation
+- Add channel index v2 API documentation
+- Add country index API documentation
+
 ## 1.3.0 2018-05-15
 - Add tv app code to user link API documentation.
 
