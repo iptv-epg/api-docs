@@ -8,9 +8,9 @@ The `/programmes` endpoint provides access to the list of all programmes availab
 
 
 Filters:   
- - `date`: which days
+ - `date`: Which days
  - `channels[]`: Channel Tvg ID-s
- - `per_page`: Per page number
+ - `per_page`: Channels per page 
  - `page`:  Page  
 
 Exmaple: `https://epg.best/api/programmes?date=2020-09-25&channels[]=RTLKlub.hu&channels[]=RTLGold.hu&page=1&per_page=30`
